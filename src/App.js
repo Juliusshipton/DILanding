@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to Dialed In Solutions</h1>
+        <h1>Dialed In Solutions</h1>
       </header>
       <main>
         <section>
@@ -14,7 +14,8 @@ function App() {
         </section>
         <section>
           <h2>Our Services</h2>
-          <p>Details about our services.</p>
+          <p>Machine Learning Gainz Daily</p>
+          <p>Deployed straight from github ... </p>
         </section>
       </main>
       <footer>
