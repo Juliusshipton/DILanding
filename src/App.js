@@ -4,8 +4,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Dialed In Solutions</h1>
+        <img src="banner-logo.jpeg" alt="SpaceX Logo" className="banner-logo" />
+        <nav className="navigation">
+          <ul>
+            <li>
+              <a href="/">About</a>
+            </li>
+            <li>
+              <a href="/">Products</a>
+            </li>
+            <li>
+              <a href="/">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </header>
+
       <main>
         <section>
           <h2>About Us</h2>
@@ -17,9 +31,6 @@ function App() {
           <p>Deployed straight from github ... </p>
         </section>
       </main>
-      <footer>
-        <p>Contact us at: contact@dialedinsolutions.com</p>
-      </footer>
     </div>
   );
 }
